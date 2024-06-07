@@ -999,32 +999,14 @@ section .container {
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #FFCD54;
 }
-.portfolio-details .swiper-slide{
-  width: 600px; /* Set the desired width */
-  height: 700px; /* Set the desired height */
-  overflow: hidden; /* Ensure no overflow */
-  position: relative;
-  background-color: #FFCD54; /* Create a positioning context */
 
-}
-.portfolio-details .swiper-slide img,video{
-             width: 100%;
-            height: 100%;
-            object-fit: cover; 
-            position: absolute; 
-            /* top: 0; */
-            /* left: 0; */
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
-}
+
 .port-items{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 .items{
   width: 1000px;
@@ -1034,7 +1016,7 @@ section .container {
 .items img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover ;
 }
 .port-head{
   padding-bottom: 20px;
@@ -1049,7 +1031,41 @@ section .container {
   object-fit: cover;
 }
 
+@media (max-width: 600px) {
+  .items {
+     width: 500px;
+     height: 300px;
+  }
+  .items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .items {
+      width: 800px;
+      height: 500px;
+  }
+  .items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+  }
+}
+@media (min-width: 1025px) {
+  .items {
+      display: flex;
+      flex-direction: column;
 
+     
+  }
+  .items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
 
 /*--------------------------------------------------------------
 # Contact
