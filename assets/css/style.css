@@ -1025,7 +1025,7 @@ section .container {
   width: 500px;
   height: 700px;
 }
-.items-kelavan img{
+.items-kelavan img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1033,10 +1033,10 @@ section .container {
 
 @media (max-width: 600px) {
   .items {
-     width: 500px;
+     width: 350px;
      height: 300px;
   }
-  .items img {
+  .items img  video{
     width: 100%;
     height: 100%;
     object-fit: cover
@@ -1045,9 +1045,9 @@ section .container {
 @media (min-width: 601px) and (max-width: 1024px) {
   .items {
       width: 800px;
-      height: 500px;
+      height: 685px;
   }
-  .items img {
+  .items img  video{
     width: 100%;
     height: 100%;
     object-fit: cover
@@ -1057,10 +1057,10 @@ section .container {
   .items {
       display: flex;
       flex-direction: column;
-
+      width: 1000px;
      
   }
-  .items img {
+  .items img video {
     width: 100%;
     height: 100%;
     object-fit: cover;
