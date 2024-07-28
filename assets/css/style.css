@@ -928,6 +928,23 @@ section .container {
   right: 15px;
 }
 
+
+/* roger */
+
+.items-roger {
+  width: 100%;  /* or any specific width */
+  height: 100 vw; /* or any specific height */
+  overflow: hidden; /* Ensure no overflow */
+  position: relative; /* Ensure the image fits within the container */
+}
+
+.items-roger img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Options: contain, cover, fill, scale-down, none */
+  display: block; /* Removes bottom white space */
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
