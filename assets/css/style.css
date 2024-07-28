@@ -945,6 +945,20 @@ section .container {
   display: block; /* Removes bottom white space */
 }
 
+/* logo */
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-item img {
+  transition: transform 0.3s;
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.05);
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
